@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 DATA_COMPANY = "historical_info_ISA_Interconnection_Electric.csv"
 DATA_FOLDER = "../data/"
 FINAL_FILES_PATH = os.path.join(DATA_FOLDER, DATA_COMPANY)
-PROFILING_REPORTS_PATH = "profiling_reports/"
+PROFILING_REPORTS_PATH = "../profiling_reports/"
 
 
 def read_data_stock(name_file: str) -> pd.DataFrame:

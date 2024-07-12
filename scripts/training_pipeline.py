@@ -108,7 +108,7 @@ def main():
     print(f"Mean Squared Error on the test set: {mse}")
     
     # Save the model
-    model.save_model('../models/xgboost_model.json')
+    model.save_model('models/xgboost_model.json')
 
 if __name__ == "__main__":
     main()
